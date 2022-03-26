@@ -1,14 +1,16 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Nav from "../components/common/Layout/Nav"
+import styles from "../styles/Home.module.css"
 
 const Home: NextPage = () => {
   return (
     <>
-    Hello
+    <Nav/>
+    <div className={styles.home}>
+    </div>
     </>
   )
 }
 
 export default Home
+
